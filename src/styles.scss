@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import  './theme';
+
+@font-face {
+    font-family: MilkyNice;
+    src: url('assets/font/CHERRY LIME.ttf') format('opentype');
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(135deg, var(--light1), var(--light4));
+}
+body {
+    margin: 0;
+    font-family: 'MilkyNice';
+}
